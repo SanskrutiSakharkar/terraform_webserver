@@ -1,3 +1,4 @@
+steps:
 mkdir project05
 mkdir aws
 cd aws
