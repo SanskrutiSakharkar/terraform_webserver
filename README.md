@@ -1,30 +1,25 @@
 steps:
-mkdir project05
-mkdir aws
-cd aws
-mkdir aws_keys
-cd aws_keys
-touch mumbai-windows-keypair.pem
-nano mumbai-windows-keypair.pem
-copy paste your key 
-cd ..
-cd ..
-touch main.tf
-nano main.tf
-configure vpcid,subnetid,amiid,region
-touch variables.tf
-nano variables.tf
-copy paste the code & change keypair name
-chmod 400 aws/aws_keys/mumbai-windows-keypair.pem
-terraform init
-terraform plan
-terraform apply
-copy public ip and check in browser
-terraform destroy
-upload your code to github repo
-git init
-git add .
-git commit -m "initial code"
-git remote add origin https://______________________
-git push https://token@github.com/<accountname>/<githubname>.git
+1- mkdir project05
+2- mkdir aws
+3- cd aws
+4- mkdir aws_keys
+5- cd aws_keys
+6- touch mumbai-windows-keypair.pem
+7- nano mumbai-windows-keypair.pem
+8- copy paste your key 
+9- cd ..
+10- cd ..
+11- touch main.tf
+12- nano main.tf
+13- configure vpcid,subnetid,amiid,region
+14- touch variables.tf
+15- nano variables.tf
+16- copy paste the code & change keypair name
+17- chmod 400 aws/aws_keys/mumbai-windows-keypair.pem
+18- terraform init
+19- terraform plan
+20- terraform apply
+21- copy public ip and check in browser
+22- terraform destroy
+
 
